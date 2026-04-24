@@ -1,0 +1,46 @@
+﻿  ConsoleApplication1.cpp
+C:\Users\Bashichda\source\repos\ConsoleApplication1\ConsoleApplication1\clsString.h(42,25): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'ConsoleApplication1.cpp')
+  
+C:\Users\Bashichda\source\repos\ConsoleApplication1\ConsoleApplication1\clsString.h(47,29): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'ConsoleApplication1.cpp')
+  
+C:\Users\Bashichda\source\repos\ConsoleApplication1\ConsoleApplication1\clsString.h(59,30): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'ConsoleApplication1.cpp')
+  
+C:\Users\Bashichda\source\repos\ConsoleApplication1\ConsoleApplication1\clsString.h(196,29): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'ConsoleApplication1.cpp')
+  
+C:\Users\Bashichda\source\repos\ConsoleApplication1\ConsoleApplication1\clsString.h(327,30): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'ConsoleApplication1.cpp')
+  
+C:\Users\Bashichda\source\repos\ConsoleApplication1\ConsoleApplication1\clsString.h(375,22): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'ConsoleApplication1.cpp')
+  
+C:\Users\Bashichda\source\repos\ConsoleApplication1\ConsoleApplication1\clsBankClient.h(185,9): warning C4240: nonstandard extension used: access to 'clsBankClient::stTransferLogRecord' now defined to be 'public', previously it was defined to be 'private'
+  (compiling source file 'ConsoleApplication1.cpp')
+      C:\Users\Bashichda\source\repos\ConsoleApplication1\ConsoleApplication1\clsBankClient.h(164,9):
+      see declaration of 'clsBankClient::stTransferLogRecord'
+  
+C:\Users\Bashichda\source\repos\ConsoleApplication1\ConsoleApplication1\clsUser.h(174,9): warning C4240: nonstandard extension used: access to 'clsUser::stLoginRegisterRecord' now defined to be 'public', previously it was defined to be 'private'
+  (compiling source file 'ConsoleApplication1.cpp')
+      C:\Users\Bashichda\source\repos\ConsoleApplication1\ConsoleApplication1\clsUser.h(19,9):
+      see declaration of 'clsUser::stLoginRegisterRecord'
+  
+C:\Users\Bashichda\source\repos\ConsoleApplication1\ConsoleApplication1\clsInputValidate.h(113,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'ConsoleApplication1.cpp')
+  
+C:\Users\Bashichda\source\repos\ConsoleApplication1\ConsoleApplication1\clsInputValidate.h(117,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'ConsoleApplication1.cpp')
+  
+C:\Users\Bashichda\source\repos\ConsoleApplication1\ConsoleApplication1\clsTotalBalancesScreen.h(63,76): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'ConsoleApplication1.cpp')
+  
+C:\Users\Bashichda\source\repos\ConsoleApplication1\ConsoleApplication1\clsUpdateCurrencyRateScreen.h(29,43): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'ConsoleApplication1.cpp')
+  
+C:\Users\Bashichda\source\repos\ConsoleApplication1\ConsoleApplication1\clsCurrencyCalculatorScreen.h(64,46): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'ConsoleApplication1.cpp')
+  
+C:\Users\Bashichda\source\repos\ConsoleApplication1\ConsoleApplication1\clsUser.h(326,1): warning C4715: 'clsUser::Save': not all control paths return a value
+  ConsoleApplication1.vcxproj -> C:\Users\Bashichda\source\repos\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
