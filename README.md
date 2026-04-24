@@ -11,7 +11,7 @@
 The final and most complete version of the Bank Management System — all previous features plus a full **Currency Exchange Module** with real-time rate updates, multi-currency conversion, and a built-in currency calculator. Built entirely with **Object-Oriented C++** using inheritance, encapsulation, and a clean layered architecture.
 
 > 🔗 **Previous versions:**
-> [v1 - Client CRUD](https://github.com/YourUsername/Bank-Client-Management-v1) · [v2 - Transactions](https://github.com/YourUsername/Bank-Client-Management-v2) · [v3 - Login & Permissions](https://github.com/YourUsername/Bank-Client-Management-v3)
+> [v1 - Client CRUD]([https://github.com/YourUsername/Bank-Client-Management-v1](https://github.com/bashichda/-Bank-Client-Management-System-C-Console-App)) · [v2 - Transactions]([https://github.com/YourUsername/Bank-Client-Management-v2](https://github.com/bashichda/-Bank-Client-Management-System-C-Console-App)) · [v3 - Login & Permissions]([https://github.com/YourUsername/Bank-Client-Management-v3](https://github.com/bashichda/-Bank-Client-Management-System-C-Console-App))
 
 ---
 
