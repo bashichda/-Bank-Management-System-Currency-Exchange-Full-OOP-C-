@@ -39,6 +39,30 @@ private:
 
 	}
 
+	static void _PrintCalculatorResult( float Amount,clsCurrency CurrencyFrom,clsCurrency CurrencyTo) {
+
+		float AmountInUSD = 0;
+		float AmountInOtherCurrency = 0;
+
+		AmountInUSD = CurrencyFrom.ConvertToUSD(Amount);
+
+		_PrintCurrencyCard(CurrencyFrom, "Convert From:");
+
+		cout << Amount << CurrencyFrom.CurrencyCode() << " = " << AmountInUSD << " USD" << endl;
+
+		if (CurrencyTo.CurrencyCode() == "USD")
+		{
+			return;
+		}
+
+		AmountInOtherCurrency = CurrencyFrom.ConvertToOtherCurrency(Amount, CurrencyTo);
+
+		_PrintCurrencyCard(CurrencyTo, "To:");
+
+		cout << Amount << CurrencyFrom.CurrencyCode() << " = " << AmountInOtherCurrency << " " << CurrencyTo.CurrencyCode() << endl;
+
+	}
+
 public:
 
 	static void ShowCurrencyCalculatorScreen() {
@@ -46,8 +70,6 @@ public:
 
 		char Answer = 'n';
 		float Amount = 0;
-		float AmountInUSD = 0;
-		float AmountInOtherCurrency = 0;
 
 		do
 		{
@@ -63,19 +85,8 @@ public:
 			cout << "\nEnter Amount To Exchange : ";
 			Amount = clsInputValidate::ReadFloatNumber();
 
-			AmountInUSD = CurrencyFrom.ConvertToUSD(Amount);
-			_PrintCurrencyCard(CurrencyFrom, "Convert From:");
-			cout << Amount << CurrencyFrom.CurrencyCode() << " = " << AmountInUSD << " USD" << endl;
-
-			if (CurrencyTo.CurrencyCode() == "USD")
-			{
-				return;
-			}
+			_PrintCalculatorResult(Amount, CurrencyFrom, CurrencyTo);
 			
-			AmountInOtherCurrency = CurrencyFrom.ConvertToOtherCurrency(Amount, CurrencyTo);
-			_PrintCurrencyCard(CurrencyFrom, "To:");
-			cout << Amount << CurrencyFrom.CurrencyCode() << " = " << AmountInOtherCurrency << " " << CurrencyTo.CurrencyCode() << endl;
-
 			cout << "\nDo you want to perform another calculation? y/n? ";
 			cin >> Answer;
 
